@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;300;400;500&display=swap');
+
+:root {
+   --title-font-family: 'Lexend Zetta', sans-serif;
+   --text-font-family: 'Poppins', sans-serif;
+    --white: #fff;
+    --black: #000;
+    --cyan-bluish-gray: #abb8c3;
+    --pale-pink: #f78da7;
+    --vivid-red: #cf2e2e;
+    --liminous-vivid-orange: #ff6900;
+    --liminous-vivid-amber: #fcb900;
+    --light-green-cyan: #7bdcb5;
+    --pale-cyan-blue: #8ed1fc;
+    --vivid-cyan-blue: #0693e3;
+    --vivid-purple: #9b51e0;
+    --blue:  #d6eaf8;
+    --pale-blue: #eaf2f8;  
+    --pink :  #fdf2e9 ;
+    --pale-orange : #fdebd0;
+    --pale-green :  #eafaf1 ;
+    
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+}
+
+/* Navigation Bar */
+
+.nav-white {
+    background-color: var(--white);
+}
+
+.nav-color {
+    background-color: var(--pale-green);
+}
+
+.img-logo {
+    width: 120px;
+}
+
+.menu {
+    font-family: var(--title-font-family);
+    font-weight: 400;
+    font-size: 1.2rem ;
+    color: inherit;
+} 
+
+.nav-item {
+    padding-left: 2rem;
+}
+
+.menu:hover {
+    opacity: 0.9;
+    color: inherit;
+}
+
+.color-block {
+    background-color: var(--pale-green);
+}
+
+/* Carousel */
+.carousel-item a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.carousel-item a:hover {
+    color: var(--pale-cyan-blue);
+}
+
+/* Product card */
+
+.card {
+    /* border: 1px solid var(--blue); */
+    border: none;
+}
+
+.card-redirect {
+    color: var(--black);
+    font-family: var(--title-font-family);
+    text-decoration: none;
+}
+
+.card-redirect:hover {
+    color: grey;
+
+}
+
+.card-text {
+    font-family: var(--text-font-family);
+}
+
+.card-img {
+    width: 70%;
+    justify-content: center;
+}
+
+.card-body {
+    /* background-color: var(--blue); */
+    height: 30vh;
+    position: relative;
+}
+
+.card-body-content {
+    /* padding-top: 100px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-body-icons {
+    position: absolute;
+    top: 85%;
+    left: 85%;
+    transform: translate(-50%, -50%);    
+}
+.back {
+    background:     #e5e7e9  ;
+}
+
+.best{
+    font-family: var(--title-font-family);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+/* Forms */
+.edit-input {
+    font-size: 0.7rem;
+}
+
+#modify {
+ color: #fff;
+ font-family: var(--title-font-family);
+ background:  #ec7063;
+ border-radius: 5px;
+ padding: 10px 20px;
+
+}
+
+.isset {
+    text-align: center;
+    width: 20%;
+    margin: auto;    
+   }
+  .error{
+      width: 50vw;
+  }
+
+/* Login */
+.form-container {
+    height: 60vh;
+}
+
+.myform {
+    padding: 7rem;
+    justify-content: center;
+}
+
+.code {
+    font-family: var(--title-font-family);
+}
+
+
+   
+
+
+
+
+
+
+
